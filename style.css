@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+.main{
+    background: linear-gradient(122deg,black,#ff0000,black,#ff0000,black,#ff0000,black);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.panel{
+    
+    border-radius: 10px;
+    height: 80%;
+    width: 80%;
+    background-color: aliceblue;
+    overflow: hidden;
+    border: 3px solid aliceblue;
+    box-shadow: 0 0 5px #fff,
+    inset 0 0 5px #fff,
+    0 0 20px #08f,
+    inset 0 0 20px #08f,
+    0 0 40px #08f,
+    inset 0 0 40px #08f;
+
+}
+
+.ptop{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0px 20vw;
+    height: 15%;
+    width: 100%;
+    background: linear-gradient(564deg,#00ADB5,#B1B2FF);
+    background: linear-gradient(54deg,#892CDC,#BC6FF1);
+    border-bottom: 3px solid #fff;
+
+}
+.elem{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.elem h2{
+    
+    color: aliceblue;
+    font-weight: 500;
+    font-size: 22px;
+}
+.box{
+    background-color: aliceblue;
+    padding: 10px 20px;
+    font-weight: 600;
+    font-size: 22px;
+    border-radius: 6px;
+    
+}
+.pbtm{
+    
+    height: 85%;
+    background: linear-gradient(54deg,#2C74B3,#205295);
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    overflow: hidden;
+
+}
+#end{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bubble{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    color: aliceblue;
+    background: linear-gradient(39deg,black,rgb(95, 94, 94),black);
+    font: 1.2em sans-serif;
+    font-weight: 500;
+
+
+}
